@@ -4,31 +4,6 @@
     box-sizing: border-box;
 }
 
-.custom-nav-link {
-            font-weight: 500;
-            padding: 10px 15px; /* Spaziatura interna per rendere il bottone più grande */
-            border-radius: 8px; /* Angoli arrotondati */
-            color: #333; /* Colore testo base */
-            transition: all 0.3s ease; /* Transizione fluida */
-        }
-
-        /* Effetto HOVER: Gradiente da Azzurro a Viola */
-        .custom-nav-link:hover {
-            /* Gradiente lineare a 90 gradi */
-            background: linear-gradient(90deg, #00c6ff 0%, #9d00ff 100%);
-            color: white !important; /* Testo bianco quando attivo */
-            transform: translateX(5px); /* Leggero spostamento a destra per effetto dinamico */
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-
-        /* Opzionale: Stile per il pulsante hamburger */
-        .navbar-toggler {
-            border: none;
-        }
-        .navbar-toggler:focus {
-            box-shadow: none; /* Rimuove il bordo blu standard di focus */
-        }
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
@@ -211,4 +186,20 @@ footer {
 .grid-item:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* Offcanvas Navbar Styles */
+.offcanvas .nav-link {
+    font-weight: 500;
+    padding: 1rem; /* Spaziatura interna per rendere il bottone più grande */
+    border-radius: 8px; /* Angoli arrotondati */
+    color: #333; /* Colore testo base */
+    transition: all 0.3s ease; /* Transizione fluida */
+}
+
+.offcanvas .nav-link:hover {
+    background: linear-gradient(90deg, #00c6ff 0%, #9d00ff 100%);
+    color: white !important; /* Testo bianco quando attivo */
+    transform: translateX(5px); /* Leggero spostamento a destra per effetto dinamico */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
