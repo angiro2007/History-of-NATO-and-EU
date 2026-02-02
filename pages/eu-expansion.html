@@ -10,17 +10,54 @@
 </head>
 <body>
 
-<nav>
-    <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="eu-origins.html">EU Origins</a></li>
-        <li><a href="eu-expansion.html">EU Expansion</a></li>
-        <li><a href="eu-crisis.html">EU Crises</a></li>
-        <li><a href="nato-origins.html">NATO Origins</a></li>
-        <li><a href="nato-coldwar.html">NATO Cold War</a></li>
-        <li><a href="nato-modern.html">Modern NATO</a></li>
-    </ul>
-</nav>
+    <nav class="navbar navbar-light bg-light fixed-top px-3 shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Menu Storia</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigazione</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        
+                        <li class="nav-item mb-2">
+                            <a class="nav-link custom-nav-link" href="../index.html">Home</a>
+                        </li>
+                        
+                        <hr class="my-2"> <li class="nav-item mb-2">
+                            <a class="nav-link custom-nav-link" href="eu-origins.html">EU Origins</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a class="nav-link custom-nav-link" href="eu-expansion.html">EU Expansion</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a class="nav-link custom-nav-link" href="eu-crisis.html">EU Crises</a>
+                        </li>
+
+                        <hr class="my-3">
+
+                        <li class="nav-item mb-2">
+                            <a class="nav-link custom-nav-link" href="nato-origins.html">NATO Origins</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a class="nav-link custom-nav-link" href="nato-coldwar.html">NATO Cold War</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a class="nav-link custom-nav-link" href="nato-modern.html">Modern NATO</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
 
 <div class="container">
         <!-- EU EXPANSION PAGE -->
